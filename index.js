@@ -32,5 +32,5 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  return array.slice(0, array.length - 1);
+  return newArray.slice(0, array.length - 1);
 }
