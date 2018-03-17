@@ -36,6 +36,6 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  array = array.slice(1)
+  array = array.slice(-2)
   return array;
 }
