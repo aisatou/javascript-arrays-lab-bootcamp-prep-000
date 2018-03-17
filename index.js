@@ -23,4 +23,5 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
  var newArray = [...array, name]
+ return newArray;
 }
